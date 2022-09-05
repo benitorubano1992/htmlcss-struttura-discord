@@ -4,15 +4,23 @@
     padding:0;
     box-sizing: border-box;
 }
-header{
-    height:500px;/* debug*/
-    background-color: red;
-}
+/* utilities */
 .container{
 
     width:80%;
     margin:0 auto;    
 }
+
+.flex{
+    display: flex;
+}
+header{
+    /*height:500px;debug*/
+    background-color: red;
+}
+
+
+
 
 .header-top{
     background-color: rgba(173, 216, 230, 100%);
@@ -33,6 +41,34 @@ header{
 .contenitore{
     width:65%;
     margin:0 auto;
-    height:400px;
+    height:300px;
     background-color: rgba(238, 130, 238, 100%);
 }
+
+/* righe del main */
+.row{
+    height:400px;/* debug*/
+    
+}
+
+/* prima riga del main */
+.row.first{
+    background-color: coral;/* debug prima riga del main*/
+}
+.row .container{
+    height:300px;/*debug*/
+    background-color: yellow;/*debug */
+
+}
+
+.container .contenuto-azzurro{
+    width:55%;    
+    height:300px;
+    background-color: rgba(30,144, 255, 100%);
+}
+.contenuto-rosa{
+    width:45%;
+    height: 300px;
+    background-color: rgba(255, 192, 203, 100%);
+}
+/* fine prima riga main */

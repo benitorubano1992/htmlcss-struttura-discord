@@ -4,3 +4,35 @@
     padding:0;
     box-sizing: border-box;
 }
+header{
+    height:500px;/* debug*/
+    background-color: red;
+}
+.container{
+
+    width:80%;
+    margin:0 auto;    
+}
+
+.header-top{
+    background-color: rgba(173, 216, 230, 100%);
+}
+
+.container.top{
+    background-color: rgba(218,165,32, 100%);
+    min-height: 150px;
+}
+/* header-bottom */
+
+
+.header-bottom{
+    background-color: rgba(0, 0, 139, 100%);
+    
+}
+
+.contenitore{
+    width:65%;
+    margin:0 auto;
+    height:400px;
+    background-color: rgba(238, 130, 238, 100%);
+}
